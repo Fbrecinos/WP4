@@ -1,19 +1,27 @@
 {
   "files": {
     "main.css": "/WP4/static/css/main.e6c13ad2.css",
-    "main.js": "/WP4/static/js/main.3ef351d9.js",
+    "main.js": "/WP4/static/js/main.7cbbf97c.js",
     "static/js/453.fa3bdba6.chunk.js": "/WP4/static/js/453.fa3bdba6.chunk.js",
     "static/media/creativity.mp4": "/WP4/static/media/creativity.fe6fb0f02e68dafebe54.mp4",
+    "static/media/brokenArm.jpg": "/WP4/static/media/brokenArm.a335fa57ae43220cb07a.jpg",
+    "static/media/bowling.jpg": "/WP4/static/media/bowling.3dd0b6b837f4c8683ead.jpg",
+    "static/media/doggieChrist.jpg": "/WP4/static/media/doggieChrist.afb9ca4ffdfda5945a93.jpg",
+    "static/media/disneyStandign.jpg": "/WP4/static/media/disneyStandign.0eea22c1a0f51bef6658.jpg",
+    "static/media/disneyMickey.jpg": "/WP4/static/media/disneyMickey.469caecb58557f0d5413.jpg",
+    "static/media/disneyEro.jpg": "/WP4/static/media/disneyEro.dcbc475c62c5834e0978.jpg",
     "static/media/writing.jpg": "/WP4/static/media/writing.c257340cbaedf60897ff.jpg",
+    "static/media/itSmall.jpg": "/WP4/static/media/itSmall.b65af69142f3a500b8c8.jpg",
+    "static/media/christmasExchange.jpg": "/WP4/static/media/christmasExchange.2df29d79b16aa43eeec2.jpg",
     "static/media/clarity.jpg": "/WP4/static/media/clarity.23645d3175938d89408d.jpg",
     "static/media/evaluation.jpg": "/WP4/static/media/evaluation.dafb15ca26f407fd8494.jpg",
     "index.html": "/WP4/index.html",
     "main.e6c13ad2.css.map": "/WP4/static/css/main.e6c13ad2.css.map",
-    "main.3ef351d9.js.map": "/WP4/static/js/main.3ef351d9.js.map",
+    "main.7cbbf97c.js.map": "/WP4/static/js/main.7cbbf97c.js.map",
     "453.fa3bdba6.chunk.js.map": "/WP4/static/js/453.fa3bdba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3ef351d9.js"
+    "static/js/main.7cbbf97c.js"
   ]
 }
