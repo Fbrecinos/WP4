@@ -4,30 +4,30 @@ import FlipCard from './FlipCard';
 // 1. Import your media
 import clarityImg from './assets/clarity.jpg';
 import writingImg from './assets/writing.jpg';
-import creativityVid from './assets/creativity.mp4'; // Import your video!
+import creativityVid from './assets/creativity.mp4';
 import evaluationImg from './assets/evaluation.jpg';
 
 function App() {
   const cardData = [
     {
       title: "Clarity of Thought",
-      description: "Understanding how values, history and personal attributes contribute to your career/life contributions...",
+      description: "I contribute where I am at today to my family, and how supportive they have been in my life. Even though I am considered an adult and have responsibilities, I’m still their child. This picture was taken when I was 4 years old at my preschool. Today, it is a reminder of where I started and the family I have.",
       imageUrl: clarityImg
     },
     {
       title: "Effective Reflective Writing",
-      description: "Demonstrating the value of articulating internal attributes and why they are important...",
+      description: "I got this award when I was in 2nd grade. It shows that there are things that I need to work on and shows that hard work pays off. I don’t get physical awards that recognize accomplishments, but I can enjoy the small changes.",
       imageUrl: writingImg
     },
     {
       title: "Creativity",
-      description: "Rendering and understanding of who you are and how you contribute both in your career and life...",
+      description: "I understand that life is stressful and filled with responsibilities. However, I’ve learned that everything is not that serious. Even in my master's computer science courses, the professor plays techno music to help everybody relax. It serves as a reminder to take time for myself and to take things one step at a time.",
       imageUrl: creativityVid, // Use the video variable here
       isVideo: true            // ADD THIS LINE so the card knows it's a video!
     },
     {
       title: "Self-Evaluation",
-      description: "An honest evaluation of what you accomplished, where you felt satisfied...",
+      description: "Before I leave college, there is so much I have to do and so many expectations from my family for me to be successful. From everything I've learned, it takes time and involves unexpected hurdles. With every obstacle and rejection, I keep trying.",
       imageUrl: evaluationImg
     }
   ];
