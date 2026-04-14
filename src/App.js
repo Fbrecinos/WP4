@@ -1,11 +1,21 @@
 import React from 'react';
 import FlipCard from './FlipCard';
+import Gallery from './Gallery';
 
 // 1. Import your media
 import clarityImg from './assets/clarity.jpg';
 import writingImg from './assets/writing.jpg';
 import creativityVid from './assets/creativity.mp4';
 import evaluationImg from './assets/evaluation.jpg';
+import brokenArm from './assets/brokenArm.jpg';
+import bowling from './assets/bowling.jpg';
+import christmasExchange from './assets/christmasExchange.jpg';
+import disneyEro from './assets/disneyEro.jpg';
+import disneyMickey from './assets/disneyMickey.jpg';
+import disneyStanding from './assets/disneyStandign.jpg';
+import doggie from './assets/doggieChrist.jpg';
+import smallWorld from './assets/itSmall.jpg';
+
 
 function App() {
   const cardData = [
@@ -32,6 +42,19 @@ function App() {
     }
   ];
 
+  const galleryData = [
+    { type: 'image', src: brokenArm },
+    { type: 'image', src: bowling },
+    { type: 'image', src: christmasExchange },
+    { type: 'image', src: disneyEro },
+    { type: 'image', src: disneyMickey },
+    { type: 'image', src: disneyStanding },
+    { type: 'image', src: doggie },
+    { type: 'image', src: smallWorld }
+    // You can add as many as you want here!
+    // { type: 'image', src: extraPhoto }, 
+  ];
+
   return (
     <div className="min-h-screen bg-slate-50 p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
@@ -47,6 +70,9 @@ function App() {
             />
           ))}
         </div>
+     {/* 4. Drop the Gallery in right here! */}
+        <Gallery mediaItems={galleryData} />
+
       </div>
     </div>
   );

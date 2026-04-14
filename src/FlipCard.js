@@ -36,7 +36,7 @@ const FlipCard = ({ title, description, imageUrl, isVideo }) => {
           </div>
           
           {/* Description Area */}
-          <div className="h-3/5 p-6 overflow-y-auto flex items-center">
+          <div className="h-3/5 px-6 pb-6 pt-10 overflow-y-auto flex items-start">
             <p className="text-sm text-slate-600 leading-relaxed">
               {description}
             </p>
