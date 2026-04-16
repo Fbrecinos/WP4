@@ -15,6 +15,10 @@ import disneyMickey from './assets/disneyMickey.jpg';
 import disneyStanding from './assets/disneyStandign.jpg';
 import doggie from './assets/doggieChrist.jpg';
 import smallWorld from './assets/itSmall.jpg';
+import walk from "./assets/walk.jpg";
+import blurry from "./assets/blurry.jpg";
+import hat from "./assets/hat.jpg";
+import pluto from "./assets/pluto.jpg";
 
 
 function App() {
@@ -50,7 +54,11 @@ function App() {
     { type: 'image', src: disneyMickey },
     { type: 'image', src: disneyStanding },
     { type: 'image', src: doggie },
-    { type: 'image', src: smallWorld }
+    { type: 'image', src: smallWorld },
+    { type: 'image', scr: hat},
+    { type: 'image', scr: blurry},
+    { type: 'image', scr: walk},
+    { type: 'image', scr: pluto}
     // You can add as many as you want here!
     // { type: 'image', src: extraPhoto }, 
   ];
