@@ -55,10 +55,10 @@ function App() {
     { type: 'image', src: disneyStanding },
     { type: 'image', src: doggie },
     { type: 'image', src: smallWorld },
-    { type: 'image', scr: hat},
-    { type: 'image', scr: blurry},
-    { type: 'image', scr: walk},
-    { type: 'image', scr: pluto}
+    { type: 'image', src: hat},
+    { type: 'image', src: blurry},
+    { type: 'image', src: walk},
+    { type: 'image', src: pluto}
     // You can add as many as you want here!
     // { type: 'image', src: extraPhoto }, 
   ];
